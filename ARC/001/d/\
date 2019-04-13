@@ -1,0 +1,27 @@
+#include <iostream>
+#include <vector>
+#include <list>
+#include <map>
+#include <limits>
+
+using namespace std;
+
+int main(){
+    int N;
+    cin >> N;
+    int s, g;
+    cin >> s >> g;
+    list<pair<int, int>> left_path;
+    list<pair<int, int>> right_path;
+    vector<int> l, r;
+    for(int i=0; i<=N; i++){
+        cin >> l[i] >> l[i];
+    }
+
+    for(int i=0; i<N; i++){
+        double grad = 
+    }
+
+    vector<double> best_l(numeric_limits<double>::max());
+    vector<double> best_r(numeric_limits<double>::max());
+}
