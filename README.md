@@ -20,7 +20,7 @@
 | 003 | [![cpp]](/ARC/003/a.cpp) | [![cpp]](/ARC/003/b.cpp) | [![cpp]](/ARC/003/c.cpp) | TODO | Dijkstra(C) |
 | 004 | [![cpp]](/ARC/004/a.cpp) | [![cpp]](/ARC/004/b.cpp) | [![cpp]](/ARC/004/c.cpp) | TODO | - |
 | 005 | [![cpp]](/ARC/005/a.cpp) | [![cpp]](/ARC/005/b.cpp) | [![cpp]](/ARC/005/c.cpp) | TODO | - |
-| 006 | [![cpp]](/ARC/006/a.cpp) | [![cpp]](/ARC/006/b.cpp) | TODO | TODO | - |
+| 006 | [![cpp]](/ARC/006/a.cpp) | [![cpp]](/ARC/006/b.cpp) | [![cpp]](/ARC/006/c.cpp) | TODO | - |
 | 007 | [![cpp]](/ARC/007/a.cpp) | [![cpp]](/ARC/007/b.cpp) | TODO | TODO | - |
 | 008 | [![cpp]](/ARC/008/a.cpp) | [![cpp]](/ARC/008/b.cpp) | TODO | TODO | - |
 | 009 | [![cpp]](/ARC/009/a.cpp) | [![cpp]](/ARC/009/b.cpp) | TODO | TODO | - |
