@@ -10,7 +10,7 @@
 | 001 | [![cpp]](/ABC/001/a.cpp) | [![cpp]](/ABC/001/b.cpp) | [![cpp]](/ABC/001/c.cpp) | [![cpp]](/ABC/001/d.cpp) | - | - | - |
 | 002 | [![py]](/ABC/002/a.py) | [![py]](/ABC/002/b.py) | [![py]](/ABC/002/c.py) | [![py]](/ABC/002/d.py) | - | - | TriangleArea(C), BitFullSearch(D) |
 | 124 | [![cpp]](/ABC/124/a.cpp) | [![cpp]](/ABC/124/b.cpp) | [![cpp]](/ABC/124/c.cpp) | [![cpp]](/ABC/124/d.cpp) | - | - | - |
-| 126 | [![cpp]](/ARC/126/a.cpp) | [![cpp]](/ARC/126/b.cpp)| [![cpp]](/ARC/126/c.cpp)| [![cpp]](/ARC/126/d.cpp)| [![cpp]](/ARC/126/e.cpp) | [![cpp]](/ARC/126/f.cpp) | - |
+| 126 | [![cpp]](/ABC/126/a.cpp) | [![cpp]](/ABC/126/b.cpp)| [![cpp]](/ABC/126/c.cpp)| [![cpp]](/ABC/126/d.cpp)| [![cpp]](/ABC/126/e.cpp) | [![cpp]](/ABC/126/f.cpp) | UnionFind(E) |
 
 ## ARC
 
