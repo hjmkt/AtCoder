@@ -29,7 +29,7 @@
 | 011 | [![cpp]](/ARC/011/a.cpp) | [![cpp]](/ARC/011/b.cpp) | TODO | TODO | - |
 | 012 | [![cpp]](/ARC/012/a.cpp) | [![cpp]](/ARC/012/b.cpp) | TODO | TODO | - |
 | 013 | [![cpp]](/ARC/013/a.cpp) | [![cpp]](/ARC/013/b.cpp) | TODO | TODO | - |
-| 014 | [![cpp]](/ARC/014/a.cpp) | TODO | TODO | TODO | - |
+| 014 | [![cpp]](/ARC/014/a.cpp) | [![cpp]](/ARC/014/b.cpp) | TODO | TODO | - |
 
 ## AGC
 
