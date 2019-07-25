@@ -45,5 +45,9 @@
 
 ## AGC
 
+| AGC | A | B | C | D | E | F | Algorithm & Data Structure |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| 034 | [![cpp]](/AGC/034/a.cpp) | [![cpp]](/AGC/034/b.cpp) | TODO | TODO | TODO | TODO | - |
+
 ## Others
 
