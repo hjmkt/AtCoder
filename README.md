@@ -10,11 +10,12 @@
 | 001 | [![cpp]](/ABC/001/a.cpp) | [![cpp]](/ABC/001/b.cpp) | [![cpp]](/ABC/001/c.cpp) | [![cpp]](/ABC/001/d.cpp) | - | - | - |
 | 002 | [![py]](/ABC/002/a.py) | [![py]](/ABC/002/b.py) | [![py]](/ABC/002/c.py) | [![py]](/ABC/002/d.py) | - | - | TriangleArea(C), BitFullSearch(D) |
 | 124 | [![cpp]](/ABC/124/a.cpp) | [![cpp]](/ABC/124/b.cpp) | [![cpp]](/ABC/124/c.cpp) | [![cpp]](/ABC/124/d.cpp) | - | - | - |
-| 126 | [![cpp]](/ABC/126/a.cpp) | [![cpp]](/ABC/126/b.cpp)| [![cpp]](/ABC/126/c.cpp)| [![cpp]](/ABC/126/d.cpp) | [![cpp]](/ABC/126/e.cpp) | [![cpp]](/ABC/126/f.cpp) | UnionFind(E) |
-| 132 | [![cpp]](/ABC/132/a.cpp) | [![cpp]](/ABC/132/b.cpp)| [![cpp]](/ABC/132/c.cpp)| [![cpp]](/ABC/132/d.cpp) | [![cpp]](/ABC/132/e.cpp) | [![cpp]](/ABC/132/f.cpp) | - |
-| 133 | [![cpp]](/ABC/133/a.cpp) | [![cpp]](/ABC/133/b.cpp)| [![cpp]](/ABC/133/c.cpp)| [![cpp]](/ABC/133/d.cpp) | [![cpp]](/ABC/133/e.cpp) | TODO | - |
-| 134 | [![cpp]](/ABC/134/a.cpp) | [![cpp]](/ABC/134/b.cpp)| [![cpp]](/ABC/134/c.cpp)| [![cpp]](/ABC/134/d.cpp) | [![cpp]](/ABC/134/e.cpp) | TODO | - |
-| 135 | [![cpp]](/ABC/135/a.cpp) | [![cpp]](/ABC/135/b.cpp)| [![cpp]](/ABC/135/c.cpp)| [![cpp]](/ABC/135/d.cpp) | TODO | TODO | - |
+| 126 | [![cpp]](/ABC/126/a.cpp) | [![cpp]](/ABC/126/b.cpp) | [![cpp]](/ABC/126/c.cpp) | [![cpp]](/ABC/126/d.cpp) | [![cpp]](/ABC/126/e.cpp) | [![cpp]](/ABC/126/f.cpp) | UnionFind(E) |
+| 131 | [![cpp]](/ABC/131/a.cpp) | [![cpp]](/ABC/131/b.cpp) | [![cpp]](/ABC/131/c.cpp) | TODO | TODO | TODO | - |
+| 132 | [![cpp]](/ABC/132/a.cpp) | [![cpp]](/ABC/132/b.cpp) | [![cpp]](/ABC/132/c.cpp) | [![cpp]](/ABC/132/d.cpp) | [![cpp]](/ABC/132/e.cpp) | [![cpp]](/ABC/132/f.cpp) | - |
+| 133 | [![cpp]](/ABC/133/a.cpp) | [![cpp]](/ABC/133/b.cpp) | [![cpp]](/ABC/133/c.cpp) | [![cpp]](/ABC/133/d.cpp) | [![cpp]](/ABC/133/e.cpp) | TODO | - |
+| 134 | [![cpp]](/ABC/134/a.cpp) | [![cpp]](/ABC/134/b.cpp) | [![cpp]](/ABC/134/c.cpp) | [![cpp]](/ABC/134/d.cpp) | [![cpp]](/ABC/134/e.cpp) | TODO | - |
+| 135 | [![cpp]](/ABC/135/a.cpp) | [![cpp]](/ABC/135/b.cpp) | [![cpp]](/ABC/135/c.cpp) | [![cpp]](/ABC/135/d.cpp) | TODO | TODO | - |
 
 ## ARC
 
