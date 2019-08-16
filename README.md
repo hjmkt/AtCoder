@@ -46,7 +46,7 @@
 | 019 | [![cpp]](/ARC/019/a.cpp) | [![cpp]](/ARC/019/b.cpp) | TODO | TODO | - |
 | 020 | [![cpp]](/ARC/020/a.cpp) | [![cpp]](/ARC/020/b.cpp) | TODO | TODO | - |
 | 021 | [![cpp]](/ARC/021/a.cpp) | [![cpp]](/ARC/021/b.cpp) | TODO | TODO | - |
-| 022 | [![cpp]](/ARC/022/a.cpp) | TODO | TODO | TODO | - |
+| 022 | [![cpp]](/ARC/022/a.cpp) | [![cpp]](/ARC/022/b.cpp) | TODO | TODO | - |
 | 023 | [![cpp]](/ARC/023/a.cpp) | TODO | TODO | TODO | - |
 
 ## AGC
