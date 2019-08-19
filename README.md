@@ -56,6 +56,7 @@
 | 034 | [![cpp]](/AGC/034/a.cpp) | [![cpp]](/AGC/034/b.cpp) | TODO | TODO | TODO | TODO | - |
 | 035 | [![cpp]](/AGC/035/a.cpp) | TODO | TODO | TODO | TODO | TODO | - |
 | 036 | [![cpp]](/AGC/036/a.cpp) | TODO | TODO | TODO | TODO | TODO | - |
+| 037 | [![cpp]](/AGC/037/a.cpp) | [![cpp]](/AGC/037/b.cpp) | TODO | TODO | TODO | TODO | - |
 
 ## Others
 
