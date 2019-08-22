@@ -15,7 +15,7 @@
 | 128 | [![cpp]](/ABC/128/a.cpp) | [![cpp]](/ABC/128/b.cpp) | [![cpp]](/ABC/128/c.cpp) | [![cpp]](/ABC/128/d.cpp) | TODO | TODO | - |
 | 129 | [![cpp]](/ABC/129/a.cpp) | [![cpp]](/ABC/129/b.cpp) | [![cpp]](/ABC/129/c.cpp) | [![cpp]](/ABC/129/d.cpp) | TODO | TODO | - |
 | 130 | [![cpp]](/ABC/130/a.cpp) | [![cpp]](/ABC/130/b.cpp) | [![cpp]](/ABC/130/c.cpp) | [![cpp]](/ABC/130/d.cpp) | TODO | TODO | - |
-| 131 | [![cpp]](/ABC/131/a.cpp) | [![cpp]](/ABC/131/b.cpp) | [![cpp]](/ABC/131/c.cpp) | TODO | TODO | TODO | - |
+| 131 | [![cpp]](/ABC/131/a.cpp) | [![cpp]](/ABC/131/b.cpp) | [![cpp]](/ABC/131/c.cpp) | [![cpp]](/ABC/131/d.cpp) | TODO | TODO | - |
 | 132 | [![cpp]](/ABC/132/a.cpp) | [![cpp]](/ABC/132/b.cpp) | [![cpp]](/ABC/132/c.cpp) | [![cpp]](/ABC/132/d.cpp) | [![cpp]](/ABC/132/e.cpp) | [![cpp]](/ABC/132/f.cpp) | - |
 | 133 | [![cpp]](/ABC/133/a.cpp) | [![cpp]](/ABC/133/b.cpp) | [![cpp]](/ABC/133/c.cpp) | [![cpp]](/ABC/133/d.cpp) | [![cpp]](/ABC/133/e.cpp) | TODO | - |
 | 134 | [![cpp]](/ABC/134/a.cpp) | [![cpp]](/ABC/134/b.cpp) | [![cpp]](/ABC/134/c.cpp) | [![cpp]](/ABC/134/d.cpp) | [![cpp]](/ABC/134/e.cpp) | TODO | - |
