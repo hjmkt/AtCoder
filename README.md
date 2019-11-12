@@ -66,5 +66,5 @@
 
 | others | A | B | C | D | E | F | Algorithm & Data Structure |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| nikkei2019-2q | [![cpp]](/nikkei2019-2q/a.cpp) | [![cpp]](/nikkei2019-2q/b.cpp) | [![cpp]](/nikkei2019-2q/c.cpp) | TODO | TODO | TODO | - |
+| nikkei2019-2q | [![cpp]](/others/nikkei2019-2q/a.cpp) | [![cpp]](/others/nikkei2019-2q/b.cpp) | [![cpp]](/others/nikkei2019-2q/c.cpp) | [![cpp]](/others/nikkei2019-2q/d.cpp) | TODO | TODO | - |
 
