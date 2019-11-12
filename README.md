@@ -30,7 +30,7 @@
 |:---:|:---:|:---:|:---:|:---:|:---:|
 | 001 | [![cpp]](/ARC/001/a.cpp) | [![cpp]](/ARC/001/b.cpp) | [![cpp]](/ARC/001/c.cpp) | TODO | Permutation(C) |
 | 002 | [![cpp]](/ARC/002/a.cpp) | [![cpp]](/ARC/002/b.cpp) | [![cpp]](/ARC/002/c.cpp) | TODO | FullSearch(C) |
-| 003 | [![cpp]](/ARC/003/a.cpp) | [![cpp]](/ARC/003/b.cpp) | [![cpp]](/ARC/003/c.cpp) | TODO | Dijkstra(C) |
+| 003 | [![cpp]](/ARC/003/a.cpp) | [![cpp]](/ARC/003/b.cpp) | [![cpp]](/ARC/003/c.cpp) | TODO | Djkstra(C) |
 | 004 | [![cpp]](/ARC/004/a.cpp) | [![cpp]](/ARC/004/b.cpp) | [![cpp]](/ARC/004/c.cpp) | TODO | - |
 | 005 | [![cpp]](/ARC/005/a.cpp) | [![cpp]](/ARC/005/b.cpp) | [![cpp]](/ARC/005/c.cpp) | TODO | - |
 | 006 | [![cpp]](/ARC/006/a.cpp) | [![cpp]](/ARC/006/b.cpp) | [![cpp]](/ARC/006/c.cpp) | TODO | - |
@@ -66,5 +66,5 @@
 
 | others | A | B | C | D | E | F | Algorithm & Data Structure |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| nikkei2019-2q | [![cpp]](/others/nikkei2019-2q/a.cpp) | [![cpp]](/others/nikkei2019-2q/b.cpp) | [![cpp]](/others/nikkei2019-2q/c.cpp) | [![cpp]](/others/nikkei2019-2q/d.cpp) | TODO | TODO | - |
+| nikkei2019-2q | [![cpp]](/others/nikkei2019-2q/a.cpp) | [![cpp]](/others/nikkei2019-2q/b.cpp) | [![cpp]](/others/nikkei2019-2q/c.cpp) | [![cpp]](/others/nikkei2019-2q/d.cpp) | TODO | TODO | CountTree(B), Djkstra(D) |
 
