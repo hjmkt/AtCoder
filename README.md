@@ -3,8 +3,7 @@
 
 # AtCoder Solutions
 
-## ABC
-
+## ABC 
 | ABC | A | B | C | D | E | F | Algorithm & Data Structure |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | 001 | [![cpp]](/ABC/001/a.cpp) | [![cpp]](/ABC/001/b.cpp) | [![cpp]](/ABC/001/c.cpp) | [![cpp]](/ABC/001/d.cpp) | - | - | - |
@@ -64,4 +63,8 @@
 | 038 | [![cpp]](/ABC/038/a.cpp) | [![cpp]](/AGC/038/b.cpp) | TODO | TODO | TODO | TODO | - |
 
 ## Others
+
+| others | A | B | C | D | E | F | Algorithm & Data Structure |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| nikkei2019-2q | [![cpp]](/nikkei2019-2q/a.cpp) | [![cpp]](/nikkei2019-2q/b.cpp) | [![cpp]](/nikkei2019-2q/c.cpp) | TODO | TODO | TODO | - |
 
