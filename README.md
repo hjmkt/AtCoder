@@ -9,7 +9,7 @@
 | 001 | [![cpp]](/ABC/001/a.cpp) | [![cpp]](/ABC/001/b.cpp) | [![cpp]](/ABC/001/c.cpp) | [![cpp]](/ABC/001/d.cpp) | - | - | - |
 | 002 | [![py]](/ABC/002/a.py) | [![py]](/ABC/002/b.py) | [![py]](/ABC/002/c.py) | [![py]](/ABC/002/d.py) | - | - | TriangleArea(C), BitFullSearch(D) |
 | 003 | [![cpp]](/ABC/003/a.cpp) | [![cpp]](/ABC/003/b.cpp) | [![cpp]](/ABC/003/c.cpp) | [![cpp]](/ABC/003/d.cpp) | - | - | PIE(D) |
-| 004 | [![cpp]](/ABC/004/a.cpp) | [![cpp]](/ABC/004/b.cpp) | TODO | TODO | - | - | - |
+| 004 | [![cpp]](/ABC/004/a.cpp) | [![cpp]](/ABC/004/b.cpp) | [![cpp]](/ABC/004/c.cpp) | [![cpp]](/ABC/004/d.cpp) | - | - | - |
 | 005 | [![py]](/ABC/005/a.py)   | [![py]](/ABC/005/b.py)   | [![py]](/ABC/005/c.py)   | [![cpp]](/ABC/005/d.py)  | - | - | - |
 | 124 | [![cpp]](/ABC/124/a.cpp) | [![cpp]](/ABC/124/b.cpp) | [![cpp]](/ABC/124/c.cpp) | [![cpp]](/ABC/124/d.cpp) | - | - | - |
 | 125 | [![cpp]](/ABC/125/a.cpp) | [![cpp]](/ABC/125/b.cpp) | [![cpp]](/ABC/125/c.cpp) | [![cpp]](/ABC/125/d.cpp) | - | - | - |
