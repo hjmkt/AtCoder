@@ -11,6 +11,7 @@
 | 003 | [![cpp]](/ABC/003/a.cpp) | [![cpp]](/ABC/003/b.cpp) | [![cpp]](/ABC/003/c.cpp) | [![cpp]](/ABC/003/d.cpp) | - | - | PIE(D) |
 | 004 | [![cpp]](/ABC/004/a.cpp) | [![cpp]](/ABC/004/b.cpp) | [![cpp]](/ABC/004/c.cpp) | [![cpp]](/ABC/004/d.cpp) | - | - | - |
 | 005 | [![py]](/ABC/005/a.py)   | [![py]](/ABC/005/b.py)   | [![py]](/ABC/005/c.py)   | [![cpp]](/ABC/005/d.py)  | - | - | - |
+| 006 | [![py]](/ABC/006/a.py)   | [![py]](/ABC/006/b.py)   | [![py]](/ABC/006/c.py)   | [![cpp]](/ABC/006/d.py)  | - | - | LIS(D) |
 | 124 | [![cpp]](/ABC/124/a.cpp) | [![cpp]](/ABC/124/b.cpp) | [![cpp]](/ABC/124/c.cpp) | [![cpp]](/ABC/124/d.cpp) | - | - | - |
 | 125 | [![cpp]](/ABC/125/a.cpp) | [![cpp]](/ABC/125/b.cpp) | [![cpp]](/ABC/125/c.cpp) | [![cpp]](/ABC/125/d.cpp) | - | - | - |
 | 126 | [![cpp]](/ABC/126/a.cpp) | [![cpp]](/ABC/126/b.cpp) | [![cpp]](/ABC/126/c.cpp) | [![cpp]](/ABC/126/d.cpp) | [![cpp]](/ABC/126/e.cpp) | [![cpp]](/ABC/126/f.cpp) | UnionFind(E) |
