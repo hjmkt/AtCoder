@@ -1,0 +1,39 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+using ll = long long;
+using vll = vector<ll>;
+using vvll = vector<vll>;
+using vvvll = vector<vvll>;
+
+#define REP(i, n, m) for(ll i=n; i<(ll)m; ++i)
+#define IREP(i, n, m) for(ll i=n-1; i>=m; --i)
+#define rep(i, n) REP(i, 0, n)
+#define irep(i, n) IREP(i, n, 0)
+#define all(v) v.begin(), v.end()
+#define vprint(v) for(auto e:v){cout<<e<<" ";};cout<<endl;
+#define vvprint(vv) for(auto v:vv)vprint(v);
+
+int main(){
+    cin.tie(0);
+    ios::sync_with_stdio(false);
+    cout << setprecision(20);
+
+    ll N;
+    cin >> N;
+    vector<string> S(N);
+    rep(i, N) cin >> S[i];
+
+    string name;
+    ll vote = 0;
+    unordered_map<string, ll> m;
+    rep(i, N){
+        if(m.count(S[i])>0) ++m[S[i]];
+        else m[S[i]] = 1;
+        if(m[S[i]]>vote){
+            name = S[i];
+            vote = m[S[i]];
+        }
+    }
+    cout << name << endl;
+}
