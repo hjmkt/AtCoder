@@ -12,7 +12,7 @@ using vvvll = vector<vvll>;
 #define irep(i, n) IREP(i, n, 0)
 #define all(v) v.begin(), v.end()
 #define vprint(v) for(auto e:v){cout<<e<<" ";};cout<<endl;
-#define vvprint(vv) for(auto v:vv)vprint(v);
+#define vvprint(vv) for(auto v:vv){vprint(v)};
 
 int main(){
     cin.tie(0);
@@ -26,31 +26,55 @@ int main(){
     rep(i, N) cin >> A[i] >> B[i] >> C[i];
     rep(i, M) cin >> D[i] >> E[i] >> F[i];
 
-    vll xs, ys;
+    set<ll> xs = {0}, ys = {0};
     rep(i, N){
-        xs.push_back(A[i]);
-        xs.push_back(B[i]);
-        ys.push_back(C[i]);
+        xs.insert(A[i]);
+        xs.insert(B[i]);
+        ys.insert(C[i]);
     }
     rep(i, M){
-        ys.push_back(E[i]);
-        ys.push_back(F[i]);
-        xs.push_back(D[i]);
+        ys.insert(E[i]);
+        ys.insert(F[i]);
+        xs.insert(D[i]);
     }
-    sort(all(xs));
-    sort(all(ys));
     unordered_map<ll, ll> xm, ym;
-    rep(i, xs.sizee()) xm[xs[i]] = i;
-    rep(i, ys.sizee()) ym[ys[i]] = i;
+    vll xv(xs.size()), yv(ys.size());
+    ll idx = 0;
+    for(ll x : xs){
+        xm[x] = idx;
+        xv[idx++] = x;
+    }
+    idx = 0;
+    for(ll y : ys){
+        ym[y] = idx;
+        yv[idx++] = y;
+    }
 
-    rep(i, N){
-        A[i] = xm[A[i]];
-        B[i] = xm[B[i]];
-        C[i] = ym[C[i]];
+    vector<vector<bool>> m(ys.size()*2, vector<bool>(xs.size()*2, 0));
+    rep(i, N) REP(j, xm[A[i]]*2, xm[B[i]]*2+1) m[ym[C[i]]*2][j] = 1;
+    rep(i, M) REP(j, ym[E[i]]*2, ym[F[i]]*2+1) m[j][xm[D[i]]*2] = 1;
+
+    ll cx = xm[0]*2, cy = ym[0]*2, a = 0;
+    ll xmax = xs.size()*2 - 2, ymax = ys.size()*2 - 2;
+    vvll dirs = {{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
+    vll ws(xs.size()), hs(ys.size());
+    rep(i, xs.size()-1) ws[i] = xv[i+1] - xv[i];
+    rep(i, ys.size()-1) hs[i] = yv[i+1] - yv[i];
+    queue<pair<ll, ll>> q;
+    q.push({cx, cy});
+    m[cy][cx] = 1;
+    while(!q.empty()){
+        auto p = q.front();
+        q.pop();
+        if(p.first==0 || p.first==xmax || p.second==0 || p.second==ymax){
+            cout << "INF" << endl;
+            return 0;
+        }
+        if(p.first%2==1 && p.second%2==1) a += ws[p.first/2] * hs[p.second/2];
+        for(auto d : dirs){
+            ll nx = p.first + d[0], ny = p.second + d[1];
+            if(!m[ny][nx]) q.push({nx, ny}), m[ny][nx] = 1;
+        }
     }
-    rep(i, M){
-        E[i] = ym[E[i]];
-        F[i] = ym[F[i]];
-        D[i] = xm[D[i]];
-    }
+    cout << a << endl;
 }
