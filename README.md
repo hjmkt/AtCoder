@@ -20,7 +20,7 @@
 | 127 | [![cpp]](/ABC/127/a.cpp) | [![cpp]](/ABC/127/b.cpp) | [![cpp]](/ABC/127/c.cpp) | [![cpp]](/ABC/127/d.cpp) | [![cpp]](/ABC/127/e.cpp) | [![cpp]](/ABC/127/f.cpp) | StarrySkyTree(F) |
 | 128 | [![cpp]](/ABC/128/a.cpp) | [![cpp]](/ABC/128/b.cpp) | [![cpp]](/ABC/128/c.cpp) | [![cpp]](/ABC/128/d.cpp) | [![cpp]](/ABC/128/e.cpp) | [![cpp]](/ABC/128/f.cpp) | EventSort(E) |
 | 129 | [![cpp]](/ABC/129/a.cpp) | [![cpp]](/ABC/129/b.cpp) | [![cpp]](/ABC/129/c.cpp) | [![cpp]](/ABC/129/d.cpp) | [![cpp]](/ABC/129/e.cpp) | [![cpp]](/ABC/129/f.cpp) | MatrixPow(F) |
-| 130 | [![cpp]](/ABC/130/a.cpp) | [![cpp]](/ABC/130/b.cpp) | [![cpp]](/ABC/130/c.cpp) | [![cpp]](/ABC/130/d.cpp) | TODO | TODO | - |
+| 130 | [![cpp]](/ABC/130/a.cpp) | [![cpp]](/ABC/130/b.cpp) | [![cpp]](/ABC/130/c.cpp) | [![cpp]](/ABC/130/d.cpp) | [![cpp]](/ABC/130/e.cpp) | TODO | DP(E) |
 | 131 | [![cpp]](/ABC/131/a.cpp) | [![cpp]](/ABC/131/b.cpp) | [![cpp]](/ABC/131/c.cpp) | [![cpp]](/ABC/131/d.cpp) | TODO | TODO | - |
 | 132 | [![cpp]](/ABC/132/a.cpp) | [![cpp]](/ABC/132/b.cpp) | [![cpp]](/ABC/132/c.cpp) | [![cpp]](/ABC/132/d.cpp) | [![cpp]](/ABC/132/e.cpp) | [![cpp]](/ABC/132/f.cpp) | - |
 | 133 | [![cpp]](/ABC/133/a.cpp) | [![cpp]](/ABC/133/b.cpp) | [![cpp]](/ABC/133/c.cpp) | [![cpp]](/ABC/133/d.cpp) | [![cpp]](/ABC/133/e.cpp) | TODO | - |
