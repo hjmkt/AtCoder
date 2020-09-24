@@ -39,9 +39,10 @@ int main(){
     ll m = LLONG_MAX;
     for(ll a : ds){
         ll b = 2*N / a;
+        if(__gcd(a, b)!=1) continue;
         auto p = exgcd(a, b);
         ll k = (a*p.first*-1 % (a*b) + a*b) % (a*b);
-        if(k>0 && k*(k+1)/2%N==0) m = min(m, k);
+        if(k>0) m = min(m, k);
     }
     cout << m << endl;
 }
