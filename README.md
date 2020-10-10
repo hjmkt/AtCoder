@@ -97,4 +97,5 @@
 | dccc2020 | [![cpp]](/others/dccc2020/a.cpp) | [![cpp]](/others/dccc2020/b.cpp) | [![cpp]](/others/dccc2020/c.cpp) | [![cpp]](/others/dccc2020/d.cpp) | TODO | TODO | - |
 | sumitrust2019 | [![cpp]](/others/sumitrust2019/a.cpp) | [![cpp]](/others/sumitrust2019/b.cpp) | [![cpp]](/others/sumitrust2019/c.cpp) | [![cpp]](/others/sumitrust2019/d.cpp) | [![cpp]](/others/sumitrust2019/e.cpp) | [![cpp]](/others/sumitrust2019/f.cpp) | - |
 | acl1 | [![cpp]](/others/acl1/a.cpp) | [![cpp]](/others/acl1/b.cpp) | [![cpp]](/others/acl1/c.cpp) | TODO | TODO | TODO | UnionFind(A), ExGCD(B), MinCostFlow(C) |
+| hhkb2020 | [![cpp]](/others/hhkb2020/a.cpp) | [![cpp]](/others/hhkb2020/b.cpp) | [![cpp]](/others/hhkb2020/c.cpp) | [![cpp]](/others/hhkb2020/d.cpp) | [![cpp]](/others/hhkb2020/e.cpp) | [![cpp]](/others/hhkb2020/f.cpp) | - |
 
