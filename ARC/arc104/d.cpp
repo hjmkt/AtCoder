@@ -22,32 +22,36 @@ int main(){
 
     ll N, K, M;
     cin >> N >> K >> M;
-    vvll dp(N*N+1, vll(N+1, 0));
-    rep(n, N*N+1){
-        if(n==0){
-            dp[n][0] = K;
-            rep(k, K) dp[n][k+1] = 1;
-            continue;
-        }
-        IREP(k, N+1, 1){
-            if(k==N){
-                dp[n][k] = n%k==0? 1 : 0;
-                continue;
+    vvll dp(N+1, vll(N*(N+1)/2*K+1, 0));
+    rep(i, N+1) dp[i][0] = 1;
+    vvll&& sum = vvll(N+1, vll(1, 0));
+    rep(i, N*(N+1)/2*K+1) sum[0].push_back(1);
+    rep(i, N){
+        vvll t(N+1, vll(1, 0));
+        ll offset1 = 0, offset2 = 0, offset3 = 0;
+        rep(j, N*(N+1)/2*K+1){
+            ll s = sum[offset1][offset2+1] - sum[offset1][max(0ll, offset2-K)];
+            s = (s+M) % M;
+            dp[i+1][j] = s;
+            t[offset3].push_back((t[offset3].back()+s) % M);
+            ++offset1;
+            ++offset3;
+            if(offset1==i+1){
+                offset1 = 0;
+                ++offset2;
             }
-            dp[n][k] = 0;
-            for(ll d=0; d*k<=n&&d<=K; ++d) dp[n][k] = (dp[n][k]+dp[n-d*k][k+1]) % M;
+            if(offset3==i+2) offset3 = 0;
         }
+        sum = t;
     }
-    REP(x, 1, N+1){
-        ll count = 0;
-        rep(k, K+1){
-            if(k==0){
-                if(x==0) ++count;
-                continue;
-            }
-            ll t = x*k;
-            count = (count+dp[t][0]) % M;
+    REP(i, 1, N+1){
+        ll s = 0;
+        rep(j, N*(N+1)/2*K+1){
+            ll d = dp[i-1][j]*dp[N-i][j] % M;
+            d = d*(K+1) % M;
+            s = (s+d) % M;
         }
-        cout << count << endl;
+        s = ((s-1)+M) % M;
+        cout << s << endl;
     }
 }
