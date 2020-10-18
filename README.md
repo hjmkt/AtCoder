@@ -88,6 +88,7 @@
 | 039 | [![cpp]](/AGC/agc039/a.cpp) | TODO | TODO | TODO | TODO | TODO | - |
 | 040 | [![cpp]](/AGC/agc040/a.cpp) | [![cpp]](/AGC/agc040/b.cpp) | TODO | TODO | TODO | TODO | - |
 | 044 | [![cpp]](/AGC/agc044/a.cpp) | [![cpp]](/AGC/agc044/b.cpp) | TODO | TODO | TODO | TODO | BFS(B) |
+| 048 | [![cpp]](/AGC/agc048/a.cpp) | TODO | TODO | TODO | TODO | TODO | - |
 
 ## Others
 
