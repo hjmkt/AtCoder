@@ -54,6 +54,7 @@
 | 190 | [![cpp]](/ABC/abc190/a.cpp) | [![cpp]](/ABC/abc190/b.cpp) | [![py]](/ABC/abc190/c.py) | [![cpp]](/ABC/abc190/d.cpp) | [![cpp]](/ABC/abc190/e.cpp) | TODO | - |
 | 191 | [![cpp]](/ABC/abc191/a.cpp) | [![cpp]](/ABC/abc191/b.cpp) | [![py]](/ABC/abc191/c.py) | [![cpp]](/ABC/abc191/d.cpp) | TODO | TODO | - |
 | 192 | [![cpp]](/ABC/abc192/a.cpp) | [![cpp]](/ABC/abc192/b.cpp) | [![py]](/ABC/abc192/c.py) | [![cpp]](/ABC/abc192/d.cpp) | [![cpp]](/ABC/abc192/e.cpp) | TODO | - |
+| 193 | [![cpp]](/ABC/abc193/a.cpp) | [![cpp]](/ABC/abc193/b.cpp) | [![py]](/ABC/abc193/c.py) | [![cpp]](/ABC/abc193/d.cpp) | TODO | TODO | - |
 
 ## ARC
 
