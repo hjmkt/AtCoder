@@ -55,6 +55,7 @@
 | 191 | [![cpp]](/ABC/abc191/a.cpp) | [![cpp]](/ABC/abc191/b.cpp) | [![py]](/ABC/abc191/c.py) | [![cpp]](/ABC/abc191/d.cpp) | TODO | TODO | - |
 | 192 | [![cpp]](/ABC/abc192/a.cpp) | [![cpp]](/ABC/abc192/b.cpp) | [![py]](/ABC/abc192/c.py) | [![cpp]](/ABC/abc192/d.cpp) | [![cpp]](/ABC/abc192/e.cpp) | TODO | - |
 | 193 | [![cpp]](/ABC/abc193/a.cpp) | [![cpp]](/ABC/abc193/b.cpp) | [![py]](/ABC/abc193/c.py) | [![cpp]](/ABC/abc193/d.cpp) | TODO | TODO | - |
+| 194 | [![cpp]](/ABC/abc194/a.cpp) | [![cpp]](/ABC/abc194/b.cpp) | [![py]](/ABC/abc194/c.py) | [![cpp]](/ABC/abc194/d.cpp) | [![cpp]](/ABC/abc194/e.cpp) | TODO | - |
 
 ## ARC
 
@@ -85,9 +86,10 @@
 | 023 | [![cpp]](/ARC/arc023/a.cpp) | TODO | TODO | TODO | - | - | - |
 | 104 | [![cpp]](/ARC/arc104/a.cpp) | [![cpp]](/ARC/arc104/b.cpp) | [![cpp]](/ARC/arc104/c.cpp) | [![cpp]](/ARC/arc104/d.cpp) | TODO | TODO | DP(C,D) |
 | 107 | [![cpp]](/ARC/arc107/a.cpp) | [![cpp]](/ARC/arc107/b.cpp) | [![cpp]](/ARC/arc107/c.cpp) | [![cpp]](/ARC/arc107/d.cpp) | TODO | TODO | DP(D) |
-| 109 | [![cpp]](/ARC/arc109/a.cpp) | [![cpp]](/ARC/arc109/b.cpp) | [![cpp]](/ARC/arc109/c.cpp) | TODO | TODO | TODO | DP(D) |
-| 112 | [![cpp]](/ARC/arc112/a.cpp) | [![cpp]](/ARC/arc112/b.cpp) | TODO | [![cpp]](/ARC/arc112/d.cpp) | TODO | TODO | DP(D) |
-| 113 | [![cpp]](/ARC/arc113/a.cpp) | [![cpp]](/ARC/arc113/b.cpp) | [![cpp]](/ARC/arc113/c.cpp) | [![cpp]](/ARC/arc113/d.cpp) | TODO | TODO | DP(D) |
+| 109 | [![cpp]](/ARC/arc109/a.cpp) | [![cpp]](/ARC/arc109/b.cpp) | [![cpp]](/ARC/arc109/c.cpp) | TODO | TODO | TODO | - |
+| 112 | [![cpp]](/ARC/arc112/a.cpp) | [![cpp]](/ARC/arc112/b.cpp) | TODO | [![cpp]](/ARC/arc112/d.cpp) | TODO | TODO | - |
+| 113 | [![cpp]](/ARC/arc113/a.cpp) | [![cpp]](/ARC/arc113/b.cpp) | [![cpp]](/ARC/arc113/c.cpp) | [![cpp]](/ARC/arc113/d.cpp) | TODO | TODO | - |
+| 114 | [![cpp]](/ARC/arc114/a.cpp) | [![cpp]](/ARC/arc114/b.cpp) | [![cpp]](/ARC/arc114/c.cpp) | [![cpp]](/ARC/arc114/d.cpp) | [![cpp]](/ARC/arc114/e.cpp) | [![cpp]](/ARC/arc114/f.cpp) | - |
 
 ## AGC
 
