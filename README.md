@@ -58,6 +58,7 @@
 | 194 | [![cpp]](/ABC/abc194/a.cpp) | [![cpp]](/ABC/abc194/b.cpp) | [![py]](/ABC/abc194/c.py) | [![cpp]](/ABC/abc194/d.cpp) | [![cpp]](/ABC/abc194/e.cpp) | TODO | - |
 | 196 | [![cpp]](/ABC/abc196/a.cpp) | [![cpp]](/ABC/abc196/b.cpp) | [![py]](/ABC/abc196/c.py) | [![cpp]](/ABC/abc196/d.cpp) | [![cpp]](/ABC/abc196/e.cpp) | TODO | - |
 | 197 | [![cpp]](/ABC/abc197/a.cpp) | [![cpp]](/ABC/abc197/b.cpp) | [![cpp]](/ABC/abc197/c.cpp) | [![cpp]](/ABC/abc197/d.cpp) | [![cpp]](/ABC/abc197/e.cpp) | [![cpp]](/ABC/abc197/f.cpp) | - |
+| 198 | [![cpp]](/ABC/abc198/a.cpp) | [![cpp]](/ABC/abc198/b.cpp) | [![py]](/ABC/abc198/c.py) | [![cpp]](/ABC/abc198/d.cpp) | [![cpp]](/ABC/abc198/e.cpp) | TODO | - |
 
 ## ARC
 
