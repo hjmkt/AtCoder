@@ -1,0 +1,40 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+using ll = long long;
+using vll = vector<ll>;
+using vvll = vector<vll>;
+using vvvll = vector<vvll>;
+
+#define REP(i, n, m) for(ll i=n; i<(ll)m; ++i)
+#define IREP(i, n, m) for(ll i=n-1; i>=m; --i)
+#define rep(i, n) REP(i, 0, n)
+#define irep(i, n) IREP(i, n, 0)
+#define all(v) v.begin(), v.end()
+#define vprint(v) for(auto e:v){cout<<e<<" ";};cout<<endl;
+#define vvprint(vv) for(auto v:vv){vprint(v)};
+
+int main(){
+    cin.tie(0);
+    ios::sync_with_stdio(false);
+    cout << setprecision(20);
+
+    ll H, W;
+    cin >> H >> W;
+    vvll A(H, vll(W));
+    rep(h, H) rep(w, W) cin >> A[h][w];
+
+    vll r(H, 0), c(W, 0);
+    rep(h, H) rep(w, W){
+        r[h] += A[h][w];
+        c[w] += A[h][w];
+    }
+
+    rep(h, H){
+        rep(w, W){
+            cout << r[h]+c[w]-A[h][w];
+            if(w<W-1) cout << " ";
+        }
+        cout << endl;
+    }
+}
