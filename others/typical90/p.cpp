@@ -19,14 +19,19 @@ int main(){
     ios::sync_with_stdio(false);
     cout << setprecision(20);
 
-    ll N, L, K;
-    cin >> N >> L >> K;
-    vll A(N);
-    rep(i, N) cin >> A[i];
+    ll N, A, B, C;
+    cin >> N >> A >> B >> C;
 
-    ll left = 1, right = 10000;
-    while(left<right){
-        ll mid = (left+right+1)/2;
-        ll count = 0;
+    ll m = LLONG_MAX;
+    rep(a, 10000){
+        rep(b, 10000-a){
+            ll p = N - a*A - b*B;
+            if(p<0) break;
+            if(p%C!=0) continue;
+            ll c = p/C;
+            ll n = a + b + c;
+            m = min(m, n);
+        }
     }
+    cout << m << endl;
 }
