@@ -38,14 +38,14 @@ int main(){
     // -a[n-1]+2*a[n]-a[n+1]==-A[n], a>=0
     // b[n] = a[n+1]-a[n]
     // b[n] - b[n-1] = A[n]
-    // b[n] - b[0] = sum(k<=n) A[k]
-    // b[0] = b[n] - sum(k<=n) A[k]
-    // N*b[0] = sum(l<N) b[l] - sum(l<N) sum(k<=l) A[l]
+    // b[n] - b[0] = sum(1<=k<=n) A[k] (n>=1)
+    // b[0] = b[n] - sum(1<=k<=n) A[k] (n>=1)
+    // N*b[0] = sum(l<N) b[l] - sum(l<N) sum(1<=k<=l) A[l]
 
     vll T(N, 0);
     sum = 0;
     rep(i, N){
-        sum += S[i];
+        sum += S[i] - A[0];
         T[i] = sum;
     }
 
@@ -57,22 +57,28 @@ int main(){
     }
     b[0] /= N;
 
-    REP(i, 1, N) b[i] = b[0] + S[i];
-    rep(i, 300){
-        bool ok = true;
-        a[0] = i;
-        REP(j, 1, N){
-            a[j] = a[j-1] + b[j-1];
-            if(a[j]<0){
-                ok = false;
-                break;
-            }
-        }
-        if(ok){
-            ll ans = 0;
-            rep(j, N) ans += a[j];
-            cout << ans << endl;
-            return 0;
+    REP(i, 1, N) b[i] = b[0] + S[i] - A[0];
+
+    vll R(N, 0);
+    sum = 0;
+    rep(i, N){
+        sum += b[i];
+        R[i] = sum;
+    }
+
+    ll m = LLONG_MAX;
+    REP(i, 1, N){
+        a[i] = R[i-1];
+        m = min(m, a[i]);
+    }
+    if(m>=0) a[0] = 0;
+    else{
+        a[0] = -m;
+        REP(i, 1, N){
+            a[i] += a[0];
         }
     }
+    ll ans = 0;
+    rep(i, N) ans += a[i];
+    cout << ans << endl;
 }

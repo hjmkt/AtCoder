@@ -95,7 +95,7 @@
 | 112 | [![cpp]](/ARC/arc112/a.cpp) | [![cpp]](/ARC/arc112/b.cpp) | TODO | [![cpp]](/ARC/arc112/d.cpp) | TODO | TODO | - |
 | 113 | [![cpp]](/ARC/arc113/a.cpp) | [![cpp]](/ARC/arc113/b.cpp) | [![cpp]](/ARC/arc113/c.cpp) | [![cpp]](/ARC/arc113/d.cpp) | TODO | TODO | - |
 | 114 | [![cpp]](/ARC/arc114/a.cpp) | [![cpp]](/ARC/arc114/b.cpp) | [![cpp]](/ARC/arc114/c.cpp) | [![cpp]](/ARC/arc114/d.cpp) | [![cpp]](/ARC/arc114/e.cpp) | [![cpp]](/ARC/arc114/f.cpp) | - |
-| 129 | [![cpp]](/ARC/arc129/a.cpp) | [![cpp]](/ARC/arc129/b.cpp) | [![cpp]](/ARC/arc129/c.cpp) | TODO | TODO | TODO | - |
+| 129 | [![cpp]](/ARC/arc129/a.cpp) | [![cpp]](/ARC/arc129/b.cpp) | [![cpp]](/ARC/arc129/c.cpp) | [![cpp]](/ARC/arc129/d.cpp) | TODO | TODO | - |
 
 ## AGC
 
