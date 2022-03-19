@@ -133,4 +133,5 @@
 | hhkb2020 | [![cpp]](/others/hhkb2020/a.cpp) | [![cpp]](/others/hhkb2020/b.cpp) | [![cpp]](/others/hhkb2020/c.cpp) | [![cpp]](/others/hhkb2020/d.cpp) | [![cpp]](/others/hhkb2020/e.cpp) | [![cpp]](/others/hhkb2020/f.cpp) | - |
 | typical90 (1-6) | [![cpp]](/others/typical90/a.cpp) | [![cpp]](/others/typical90/b.cpp) | [![cpp]](/others/typical90/c.cpp) | [![cpp]](/others/typical90/d.cpp) | [![cpp]](/others/typical90/e.cpp) | [![cpp]](/others/typical90/f.cpp) | - |
 | typical90 (7-12) | [![cpp]](/others/typical90/g.cpp) | [![cpp]](/others/typical90/h.cpp) | [![cpp]](/others/typical90/i.cpp) | [![cpp]](/others/typical90/j.cpp) | [![cpp]](/others/typical90/k.cpp) | [![cpp]](/others/typical90/l.cpp) | - |
+| typical90 (13-18) | [![cpp]](/others/typical90/m.cpp) | [![cpp]](/others/typical90/n.cpp) | [![cpp]](/others/typical90/o.cpp) | [![cpp]](/others/typical90/p.cpp) | [![cpp]](/others/typical90/q.cpp) | [![cpp]](/others/typical90/r.cpp) | - |
 
