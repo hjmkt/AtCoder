@@ -24,5 +24,7 @@ int main(){
     ll H, W;
     cin >> H >> W;
 
-    cout << ((H+1)/2)*((W+1)/2) << endl;
+    if(H==1) cout << W << endl;
+    else if(W==1) cout << H << endl;
+    else cout << ((H+1)/2)*((W+1)/2) << endl;
 }
