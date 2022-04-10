@@ -71,6 +71,7 @@
 | 242 | [![cpp]](/ABC/abc242/a.cpp) | [![cpp]](/ABC/abc242/b.cpp) | [![py]](/ABC/abc242/c.py) | [![cpp]](/ABC/abc242/d.cpp) | [![cpp]](/ABC/abc242/e.cpp) | TODO | TODO | TODO | - |
 | 244 | [![cpp]](/ABC/abc244/a.cpp) | [![cpp]](/ABC/abc244/b.cpp) | [![py]](/ABC/abc244/c.py) | [![cpp]](/ABC/abc244/d.cpp) | [![cpp]](/ABC/abc244/e.cpp) | [![cpp]](/ABC/abc244/f.cpp) | TODO | TODO | - |
 | 245 | [![cpp]](/ABC/abc245/a.cpp) | [![cpp]](/ABC/abc245/b.cpp) | [![py]](/ABC/abc245/c.py) | [![cpp]](/ABC/abc245/d.cpp) | [![cpp]](/ABC/abc245/e.cpp) | TODO | TODO | TODO | - |
+| 247 | [![cpp]](/ABC/abc247/a.cpp) | [![cpp]](/ABC/abc247/b.cpp) | [![py]](/ABC/abc247/c.py) | [![cpp]](/ABC/abc247/d.cpp) | [![cpp]](/ABC/abc247/e.cpp) | TODO | TODO | TODO | - |
 
 ## ARC
 
