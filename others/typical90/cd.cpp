@@ -20,6 +20,16 @@ template<class T, class U> using ummap = unordered_multimap<T, U>;
 #define vprint(v) for(auto e:v){cout<<e<<" ";};cout<<endl;
 #define vvprint(vv) for(auto v:vv){vprint(v)};
 
+ll pow_mod(ll n, ll m, ll mod=1000000007){
+    ll a = 1;
+    while(m>0){
+        if(m&1) a = a*n % mod;
+        n = n*n % mod;
+        m >>= 1;
+    }
+    return a;
+}
+
 int main(){
     cin.tie(0);
     ios::sync_with_stdio(false);
@@ -29,10 +39,26 @@ int main(){
     cin >> L >> R;
 
     ll mod = 1000000007;
+    ll div2 = pow_mod(2, mod-2);
     ll b = 1;
-    while(b<=R){
-        ll l = b, r = b*10 - 1;
-        if(r<L) continue;
+    ll n = 1;
+    ll ans = 0;
+    while(true){
+        ll l = b, r = max(b*10 - 1, l);
+        if(r<L){
+            b *= 10;
+            ++n;
+            continue;
+        }
+        l = max(l, L);
+        r = min(r, R);
+        ll d = r%mod * ((r+1)%mod) % mod * div2 % mod - l%mod * ((l-1)%mod) % mod * div2 % mod;
+        d = d*n % mod;
+        ans = (ans + d) % mod;
+        if(b>R/10) break;
         b *= 10;
+        ++n;
     }
+    ans = (ans%mod+mod) % mod;
+    cout << ans << endl;
 }
