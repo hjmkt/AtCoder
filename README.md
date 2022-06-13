@@ -155,7 +155,8 @@
 | typical90 (61-66) | [![cpp]](/others/typical90/bi.cpp) | [![cpp]](/others/typical90/bj.cpp) | [![cpp]](/others/typical90/bk.cpp) | [![cpp]](/others/typical90/bl.cpp) | [![cpp]](/others/typical90/bm.cpp) | [![cpp]](/others/typical90/bn.cpp) | - |
 | typical90 (67-72) | [![cpp]](/others/typical90/bo.cpp) | [![cpp]](/others/typical90/bp.cpp) | [![cpp]](/others/typical90/bq.cpp) | [![cpp]](/others/typical90/br.cpp) | [![cpp]](/others/typical90/bs.cpp) | [![cpp]](/others/typical90/bt.cpp) | - |
 | typical90 (73-78) | [![cpp]](/others/typical90/bu.cpp) | [![cpp]](/others/typical90/bv.cpp) | [![cpp]](/others/typical90/bw.cpp) | [![cpp]](/others/typical90/bx.cpp) | [![cpp]](/others/typical90/by.cpp) | [![cpp]](/others/typical90/bz.cpp) | - |
-| typical90 (79-85) | [![cpp]](/others/typical90/ca.cpp) | [![cpp]](/others/typical90/cb.cpp) | [![cpp]](/others/typical90/cc.cpp) | [![cpp]](/others/typical90/cd.cpp) | [![cpp]](/others/typical90/ce.cpp) | [![cpp]](/others/typical90/cf.cpp) | - |
+| typical90 (79-84) | [![cpp]](/others/typical90/ca.cpp) | [![cpp]](/others/typical90/cb.cpp) | [![cpp]](/others/typical90/cc.cpp) | [![cpp]](/others/typical90/cd.cpp) | [![cpp]](/others/typical90/ce.cpp) | [![cpp]](/others/typical90/cf.cpp) | - |
+| typical90 (85-90) | [![cpp]](/others/typical90/cg.cpp) | [![cpp]](/others/typical90/ch.cpp) | [![cpp]](/others/typical90/ci.cpp) | [![cpp]](/others/typical90/cj.cpp) | [![cpp]](/others/typical90/ck.cpp) | [![cpp]](/others/typical90/cl.cpp) | - |
 
 
 
