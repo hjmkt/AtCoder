@@ -34,14 +34,14 @@ int main(){
     rep(i, N-1){
         REP(j, i+1, N){
             if(R[i]<=L[j]) p[i][j] = 0;
-            else if(R[j]<=L[i]) p[i][j] = 1;
+            else if(R[j]<L[i]) p[i][j] = 1;
             else if(L[i]<L[j]){
                 double r = min(R[i], R[j]) - max(L[i], L[j]);
-                p[i][j] = 0.5 * r * (r+1) / (R[i]-L[i]+1) / (R[j]-L[j]+1);
+                p[i][j] = 0.5 * r * (r+1) / (R[i]-L[i]+1) / (R[j]-L[j]+1) + (double)max(0ll, R[i]-R[j])/(R[i]-L[i]+1);
             }
             else{
                 double r = min(R[i], R[j]) - max(L[i], L[j]);
-                p[i][j] = 1 - 0.5 * r * (r+1) / (R[i]-L[i]+1) / (R[j]-L[j]+1);
+                p[i][j] = 1 - 0.5 * (r+1) * (r+2) / (R[i]-L[i]+1) / (R[j]-L[j]+1) - (double)max(0ll, R[j]-R[i])/(R[j]-L[j]+1);
             }
             ans += p[i][j];
         }
