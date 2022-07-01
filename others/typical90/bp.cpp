@@ -103,14 +103,18 @@ int main(){
 
     rep(i, Q){
         if(T[i]==0){
-            uf.unite(X[i], Y[i]);
-            st.update(X[i], V[i]);
+            if(uf.root(X[i])!=uf.root(Y[i])){
+                uf.unite(X[i], Y[i]);
+                st.update(X[i], V[i]);
+            }
         }
         else {
             if(uf.root(X[i])!=uf.root(Y[i])) cout << "Ambiguous" << endl;
-            else {
+            else if(X[i]<Y[i]) {
                 cout << (V[i]*(X[i]%2==0? -1 : 1) + st.get(X[i], Y[i]-1)) * (Y[i]%2==0? -1 : 1) << endl;
-            }
+            } else if (X[i]>Y[i]){
+                cout << (V[i]*(X[i]%2==0? -1 : 1) - st.get(Y[i], X[i]-1)) * (Y[i]%2==0? -1 : 1) << endl;
+            } else cout << V[i] << endl;
         }
     }
 }
