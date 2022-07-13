@@ -29,4 +29,6 @@ int main(){
     cin >> N >> P >> K;
     vvll A(N, vll(N, 0));
     rep(i, N) rep(j, N) cin >> A[i][j];
+
+    ll ans = 0;
 }
