@@ -30,5 +30,7 @@ int main(){
     vvll A(N, vll(N, 0));
     rep(i, N) rep(j, N) cin >> A[i][j];
 
+    vvvll dist(N, vvll(N, vll(N, -1)));
+
     ll ans = 0;
 }
