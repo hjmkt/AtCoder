@@ -20,6 +20,14 @@ template<class T, class U> using ummap = unordered_multimap<T, U>;
 #define vprint(v) for(auto e:v){cout<<e<<" ";};cout<<endl;
 #define vvprint(vv) for(auto v:vv){vprint(v)};
 
+template<typename T=ll>
+void warshall(vector<vector<T>> &v, function<bool(const T&, const T&)> comp=less<T>()){
+    ll n = v.size();
+    rep(i, n) rep(j, n) rep(k, n){
+        v[j][k] = comp(v[j][k], v[j][i]+v[i][k])? v[j][k] : (v[j][i]+v[i][k]);
+    }
+}
+
 int main(){
     cin.tie(0);
     ios::sync_with_stdio(false);
@@ -30,7 +38,23 @@ int main(){
     vvll A(N, vll(N, 0));
     rep(i, N) rep(j, N) cin >> A[i][j];
 
-    vvvll dist(N, vvll(N, vll(N, -1)));
-
-    ll ans = 0;
+    ll lb = 0, ub = P;
+    while(lb<ub){
+        ll m = (lb+ub) / 2;
+        vvll a = A;
+        rep(i, N) rep(j, N) {
+            if(a[i][j]==-1) a[i][j] = m;
+        }
+        warshall(a);
+        ll count = 0;
+        rep(i, N-1) REP(j, i+1, N){
+            if(a[i][j]<=P) ++count;
+        }
+        if(count<=K){
+            ub = m - 1;
+        }
+        else{
+            lb = m + 1;
+        }
+    }
 }
