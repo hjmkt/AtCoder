@@ -29,4 +29,6 @@ int main(){
     cin >> N;
     vll A(N), B(N);
     rep(i, N) cin >> A[i] >> B[i];
+
+
 }
