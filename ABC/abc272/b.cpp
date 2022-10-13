@@ -24,4 +24,27 @@ int main(){
     cin.tie(0);
     ios::sync_with_stdio(false);
     cout << setprecision(20);
+
+    ll N, M;
+    cin >> N >> M;
+    vll k(M);
+    vvll x(M);
+    rep(i, M){
+        cin >> k[i];
+        x[i] = vll(k[i]);
+        rep(j, k[i]) cin >> x[i][j];
+    }
+    vector<vector<bool>> flags(N, vector<bool>(N, false));
+    rep(i, M){
+        rep(j, k[i]-1) REP(l, j+1, k[i]){
+            flags[x[i][j]-1][x[i][l]-1] = flags[x[i][l]-1][x[i][j]-1] = true;
+        }
+    }
+    rep(i, N-1) REP(j, i+1, N){
+        if(!flags[i][j]){
+            cout << "No" << endl;
+            return 0;
+        }
+    }
+    cout << "Yes" << endl;
 }
