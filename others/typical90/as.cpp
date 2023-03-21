@@ -1,4 +1,5 @@
 #include <bits/stdc++.h>
+#include <climits>
 
 using namespace std;
 using ll = long long;
@@ -30,15 +31,36 @@ int main(){
     vll X(N), Y(N);
     rep(i, N) cin >> X[i] >> Y[i];
 
-    vvll dp(N, vll(1<<N, -1));
-    dp[0][0] = 0;
-    REP(i, 1, (1<<N)+1){
-        ll n = 0;
+    vvll dp(1<<N, vll(K+1, LLONG_MAX));
+    vvll d2(N, vll(N, 0));
+    rep(i, N) rep(j, N) d2[i][j] = (X[i]-X[j])*(X[i]-X[j]) + (Y[i]-Y[j])*(Y[i]-Y[j]);
+    vll dists(1<<N, 0);
+    rep(i, 1<<N){
         rep(j, N){
-            if(((i>>j)&1)==1) ++n;
-        }
-        REP(j, n, K+1){
-            dp[i][j] = max(dp[i][j], dp[i-1][j]);
+            if(((i>>j)&1)==1){
+                REP(k, j+1, N){
+                    if(((i>>k)&1)==1) dists[i] = max(dists[i], d2[j][k]);
+                }
+            }
         }
     }
+    REP(i, 1, 1<<N) dp[i][1] = dists[i];
+    REP(i, 1, 1<<N){
+        ll n = 0;
+        vll indices;
+        rep(j, N){
+            if(((i>>j)&1)==1){
+                ++n;
+                indices.push_back(j);
+            }
+        }
+        REP(k, 1, (1<<n)-1){
+            ll b = 0;
+            rep(l, n) b |= (((k>>l)&1)<<indices[l]);
+            REP(j, 2, K+1){
+                dp[i][j] = min(dp[i][j], max(dp[i^b][j-1], dists[b]));
+            }
+        }
+    }
+    cout << dp[(1<<N)-1][K] << endl;
 }
