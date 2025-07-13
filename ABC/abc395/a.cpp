@@ -24,4 +24,16 @@ int main(){
     cin.tie(0);
     ios::sync_with_stdio(false);
     cout << setprecision(20);
+
+    ll N;
+    cin >> N;
+    vll A(N);
+    rep(i, N) cin >> A[i];
+    rep(i, N-1){
+        if(A[i] >= A[i+1]){
+            cout << "No" << endl;
+            return 0;
+        }
+    }
+    cout << "Yes" << endl;
 }
